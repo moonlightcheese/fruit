@@ -1,7 +1,8 @@
-package com.example.fruit;
+package com.moonlightcheese.fruit;
 
 import android.app.Activity;
 import android.os.Bundle;
+import com.moonlightcheese.storage.database.schema.tables.CallTable;
 
 public class MainActivity extends Activity {
     /**
@@ -11,5 +12,7 @@ public class MainActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+
+
     }
 }
